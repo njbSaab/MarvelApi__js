@@ -1,0 +1,30 @@
+.modal__wrapper{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100vh;
+   backdrop-filter: blur(3px);
+}
+.comics__container{
+   position: fixed;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   width: 80%;
+   height: 600px;
+   
+}
+.charter__item{
+   
+}
+.charter__items{
+
+}
+.charter__img{
+
+}
+.comics__title{
+
+}

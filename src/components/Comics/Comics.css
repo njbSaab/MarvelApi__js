@@ -1,0 +1,26 @@
+.comics__container{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+.comics__item{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 250px;
+   background-color: var(--color-light);
+   transition: all .5s;
+   cursor: pointer;
+}
+.comics__item:hover{
+   transform: scale(1.1);
+   filter: saturate(150%);
+}
+.comics__title{
+   display: flex;
+   margin: auto;
+   margin: var(--spacing-large) var(--spacing-medium);
+}
+.comics__img{
+   width: 100%;
+}
